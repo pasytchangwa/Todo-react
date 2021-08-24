@@ -1,5 +1,5 @@
-import React from 'react'
-import TodoItem from './TodoItem'
+import React from 'react';
+import TodoItem from './TodoItem';
 
 class TodosList extends React.Component {
   render() {
@@ -14,8 +14,8 @@ class TodosList extends React.Component {
           />
         ))}
       </ul>
-    )
+    );
   }
 }
 
-export default TodosList
+export default TodosList;

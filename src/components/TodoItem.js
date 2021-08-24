@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 class TodoItem extends React.Component {
   render() {
@@ -14,8 +14,8 @@ class TodoItem extends React.Component {
         </button>
         {this.props.todo.title}
       </li>
-    )
+    );
   }
 }
 
-export default TodoItem
+export default TodoItem;
