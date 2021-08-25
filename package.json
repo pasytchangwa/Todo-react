@@ -19,7 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "requirements-check": "node check_node_version.js"
+    "requirements-check": "node check_node_version.js",
+    "lint": "eslint ."
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +47,7 @@
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
     "eslint": "^7.32.0",
+    "eslint-config-adpyke-es6": "^1.4.13",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-airbnb": "^0.0.1-security",
     "eslint-plugin-import": "^2.24.2",
