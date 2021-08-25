@@ -10,6 +10,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^1.1.5",
+    "semver": "^7.3.5",
     "uuid": "^8.3.2",
     "web-vitals": "^1.1.2"
   },
@@ -17,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "requirements-check": "node check_node_version.js"
   },
   "eslintConfig": {
     "extends": [
